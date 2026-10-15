@@ -1,0 +1,3 @@
+Revenue,total_n,train_n,test_n,total_prop,train_prop,test_prop
+False,10422,8338,2084,0.8453,0.8453,0.8451
+True,1908,1526,382,0.1547,0.1547,0.1549

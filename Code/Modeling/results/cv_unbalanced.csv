@@ -1,0 +1,7 @@
+modelo,variables,parametros,f1_mean,recall_mean,precision_mean,average_precision_mean,f1_std,recall_std,precision_std,average_precision_std
+referencia,con_PageValues,{},0.0,0.0,0.0,0.1547,0.0,0.0,0.0,0.0002
+arbol,con_PageValues,"{'model__max_depth': 8, 'model__min_samples_leaf': 20}",0.6332,0.5806,0.6971,0.6752,0.0127,0.0119,0.0269,0.0184
+rf,con_PageValues,"{'model__max_depth': 20, 'model__min_samples_leaf': 1}",0.6223,0.5262,0.7615,0.7355,0.0106,0.0094,0.0195,0.0146
+referencia,sin_PageValues,{},0.0,0.0,0.0,0.1547,0.0,0.0,0.0,0.0002
+arbol,sin_PageValues,"{'model__max_depth': None, 'model__min_samples_leaf': 1}",0.2925,0.3099,0.2771,0.1935,0.0305,0.0378,0.0247,0.0118
+rf,sin_PageValues,"{'model__max_depth': None, 'model__min_samples_leaf': 1}",0.1205,0.0688,0.5008,0.3591,0.0247,0.0156,0.0388,0.0177
